@@ -261,7 +261,7 @@ public class JsonPointer {
     }
 
     /** Represents a single JSON Pointer reference token. */
-    static class RefToken {
+    public static class RefToken {
         private String decodedToken;
         transient private Integer index = null;
 
